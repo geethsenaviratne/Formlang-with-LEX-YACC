@@ -1,0 +1,28 @@
+meta author = "SE2062 Team";
+
+form Job_Application {
+  section Applicant_Details {
+    field Full_Name: text required;
+    field Email: email required;
+    field Phone: text required;
+    field Date_Of_Birth: date min="1980-01-01" max="2007-12-31" required;
+    field Experience: number min="0" max="50" required;
+    field Portfolio_Link: text;
+    field Upload_CV: file required;
+  }
+
+  section Position_Preferences {
+    field Position: dropdown options=["Frontend Developer", "Backend Developer", "UI/UX Designer", "QA Tester"] required;
+    field Availability: date required;
+    field Remote_Work: checkbox;
+    field agree: checkbox;
+    field Skills: textarea rows=4 cols=50 default="List your relevant skills...";
+     field Gender: radio ["Male", "Female", "Other"] required;
+  }
+
+  validate {
+    if Experience < 2 {
+      error "You must have at least 1 year of experience.";
+    }
+  }
+}

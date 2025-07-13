@@ -1,0 +1,26 @@
+meta author = "Geeth";
+
+form Registration {
+  section Personal {
+    field Full_Name: text required;
+    field Age: number min="1" max="99" required;
+    field password: password required;
+    field User_Email: email required;
+    field Gender: radio ["Male", "Female", "Other"] required;
+    field Country: dropdown options=["Sri Lanka", "India", "China", "USA", "Australia", "Canada"] required;
+    field About: textarea rows=5 cols=40 default="Type anything in here...";
+    field Date_Of_Birth: date min="2001-01-01" max="2025-12-31" required;
+    field Resume: file required;
+    field Phone_number: text;
+    field Emergency_contact: text;
+    field Agree: checkbox required;
+  }
+
+    
+  validate {
+    if Age < 18 {
+      error "You must be at least 18.";
+    }
+  }
+
+}
