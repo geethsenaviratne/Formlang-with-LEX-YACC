@@ -1,10 +1,5 @@
 # FormLang++ – A Domain-Specific Language for Generating HTML Forms
 
-> **Project Duration:** May 2025 – Jun 2025  
-> **Institution:** Sri Lanka Institute of Information Technology (SLIIT)  
-> **Module:** Programming Paradigms
-
----
 
 ## 📌 Overview
 
@@ -64,3 +59,11 @@ This project significantly enhanced my understanding of:
 
 ## 📁 Project Structure
 
+FormLang++/
+├── lexer.l # Flex lexer definition
+├── parser.y # Bison parser rules
+├── main.c # Entry point and integration
+├── html_generator.c # HTML output generator
+├── form_examples/ # Sample .form DSL files
+├── output_html/ # Generated HTML files
+└── README.md # Project documentatio
