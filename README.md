@@ -1,7 +1,5 @@
 # FormLang++ – A Domain-Specific Language for Generating HTML Forms
 
-![SLIIT Logo](https://upload.wikimedia.org/wikipedia/en/5/5f/SLIIT_Logo.png)
-
 > **Project Duration:** May 2025 – Jun 2025  
 > **Institution:** Sri Lanka Institute of Information Technology (SLIIT)  
 > **Module:** Programming Paradigms
