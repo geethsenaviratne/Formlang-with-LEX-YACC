@@ -1,16 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>FormLang++ – README</title>
-  <style>
-    body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; max-width: 900px; margin: auto; background: #f9f9f9; color: #333; }
-    code, pre { background: #eee; padding: 4px 8px; border-radius: 4px; font-family: monospace; }
-    pre { overflow-x: auto; padding: 10px; background: #f4f4f4; border: 1px solid #ccc; }
-    h1, h2, h3 { color: #004080; }
-    ul { margin-left: 20px; }
-  </style>
+
 </head>
 <body>
 
