@@ -11,11 +11,6 @@
     <img src="https://upload.wikimedia.org/wikipedia/en/5/5f/SLIIT_Logo.png" alt="SLIIT Logo" width="120" />
   </p>
 
-  <blockquote>
-    <strong>Duration:</strong> May 2025 – Jun 2025 <br />
-    <strong>Institution:</strong> Sri Lanka Institute of Information Technology (SLIIT) <br />
-    <strong>Module:</strong> Programming Paradigms
-  </blockquote>
 
   <hr />
 
