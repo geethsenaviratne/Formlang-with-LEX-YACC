@@ -82,6 +82,78 @@ FormLang++/
 ├── output_html/        # Directory for generated HTML outputs
 └── README.md           # Project documentation
   </code></pre>
+    <hr />
+
+  <h2>🚀 Getting Started</h2>
+
+  <h3>Prerequisites</h3>
+  <p>Make sure the following tools are installed:</p>
+  <ul>
+    <li>Flex</li>
+    <li>Bison</li>
+    <li>GCC / Clang (C compiler)</li>
+  </ul>
+
+  <h3>Build & Run</h3>
+  <pre><code>
+flex lexer.l
+bison -d parser.y
+gcc -o formlang++ parser.tab.c lex.yy.c main.c html_generator.c -lfl
+./formlang++ form_examples/sample.form
+  </code></pre>
+  <p>Generated HTML will be saved inside the <code>output_html/</code> folder.</p>
+
+  <hr />
+
+  <h2>📄 Sample DSL Input (<code>sample.form</code>)</h2>
+  <pre><code>
+form "User Registration"
+section "Personal Info"
+    text "Name"
+    number "Age"
+    radio "Gender" ["Male", "Female", "Other"]
+end
+
+validation
+    if Age &lt; 18 then error "You must be at least 18 years old."
+end
+  </code></pre>
+
+  <hr />
+
+  <h2>🖼 Sample Output (HTML)</h2>
+  <pre><code>
+&lt;form&gt;
+  &lt;label&gt;Name:&lt;/label&gt;
+  &lt;input type="text" name="Name" required /&gt;
+
+  &lt;label&gt;Age:&lt;/label&gt;
+  &lt;input type="number" name="Age" required /&gt;
+
+  &lt;label&gt;Gender:&lt;/label&gt;
+  &lt;input type="radio" name="Gender" value="Male" /&gt;
+  &lt;input type="radio" name="Gender" value="Female" /&gt;
+  &lt;input type="radio" name="Gender" value="Other" /&gt;
+
+  &lt;!-- Validation Script --&gt;
+&lt;/form&gt;
+  </code></pre>
+
+  <hr />
+
+  <h2>📬 Contact</h2>
+  <p>
+    If you have any questions or feedback, feel free to open an issue or reach out.
+  </p>
+
+  <blockquote>
+    &copy; 2025 Geeth Senavirathna<br/>
+    Project submitted for Programming Paradigms @ SLIIT
+  </blockquote>
+
+</body>
+</html>
+
 
 </body>
 </html>
