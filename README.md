@@ -84,24 +84,22 @@ FormLang++/
   </code></pre>
     <hr />
 
-  <h2>🚀 Getting Started</h2>
+    <hr />
 
-  <h3>Prerequisites</h3>
-  <p>Make sure the following tools are installed:</p>
-  <ul>
-    <li>Flex</li>
-    <li>Bison</li>
-    <li>GCC / Clang (C compiler)</li>
-  </ul>
+  <h2>🛠️ How to Build and Run</h2>
 
-  <h3>Build & Run</h3>
-  <pre><code>
-flex lexer.l
-bison -d parser.y
-gcc -o formlang++ parser.tab.c lex.yy.c main.c html_generator.c -lfl
-./formlang++ form_examples/sample.form
-  </code></pre>
-  <p>Generated HTML will be saved inside the <code>output_html/</code> folder.</p>
+  <h3>1. Clone the Repository</h3>
+  <pre><code>git clone https://github.com/yourusername/formlangplusplus.git
+cd formlangplusplus</code></pre>
+
+  <h3>2. Build the Compiler</h3>
+  <pre><code>make</code></pre>
+
+  <h3>3. Run the DSL Parser</h3>
+  <pre><code>./formlang form_test.form</code></pre>
+
+  <h3>4. Check Output</h3>
+  <p>The generated HTML will be printed to the terminal or saved to an output file, depending on the implementation.</p>
 
   <hr />
 
@@ -141,18 +139,17 @@ end
 
   <hr />
 
-  <h2>📬 Contact</h2>
+  <h2>👨‍💻 Author</h2>
   <p>
-    If you have any questions or feedback, feel free to open an issue or reach out.
+    <strong>Geeth Senavirathna</strong><br/>
+    Software Engineering Undergraduate, SLIIT<br/>
+    <a href="https://www.linkedin.com/">LinkedIn</a> | 
+    <a href="https://yourportfolio.com">Portfolio</a>
   </p>
-
-  <blockquote>
-    &copy; 2025 Geeth Senavirathna<br/>
-    Project submitted for Programming Paradigms @ SLIIT
-  </blockquote>
 
 </body>
 </html>
+
 
 
 </body>
