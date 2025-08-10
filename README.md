@@ -7,10 +7,6 @@
 
   <h1>FormLang++ – A Domain-Specific Language for Generating HTML Forms</h1>
 
-  <p>
-    <img src="https://upload.wikimedia.org/wikipedia/en/5/5f/SLIIT_Logo.png" alt="SLIIT Logo" width="120" />
-  </p>
-
 
   <hr />
 
@@ -82,9 +78,7 @@ FormLang++/
 ├── output_html/        # Directory for generated HTML outputs
 └── README.md           # Project documentation
   </code></pre>
-    <hr />
-
-    <hr />
+    
 
   <h2>🛠️ How to Build and Run</h2>
 
@@ -142,9 +136,8 @@ end
   <h2>👨‍💻 Author</h2>
   <p>
     <strong>Geeth Senavirathna</strong><br/>
-    Software Engineering Undergraduate, SLIIT<br/>
-    <a href="https://www.linkedin.com/">LinkedIn</a> | 
-    <a href="https://yourportfolio.com">Portfolio</a>
+    Computer Science Undergraduate, SLIIT<br/>
+    <a href="https://www.linkedin.com/in/geethseneviratne/">LinkedIn</a> | 
   </p>
 
 </body>
