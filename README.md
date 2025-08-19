@@ -5,7 +5,7 @@
 </head>
 <body>
 
-  <h1>FormLang++  A Domain-Specific Language for Generating HTML Forms</h1>
+  <h1>FormLang++  - A Domain-Specific Language for Generating HTML Forms</h1>
 
 
   <hr />
